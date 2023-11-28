@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&family=Lobster&family=Titillium+Web:ital,wght@1,600&display=swap');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  margin: 5rem auto 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0 12px 28px 0,
+    rgba(0, 0, 0, 0.1) 0 2px 4px 0,
+    rgba(255, 255, 255, 0.05) 0 0 0 1px inset;
+  padding: 5rem;
+  width: 50%;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.message {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: grey;
+}
